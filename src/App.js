@@ -44,7 +44,7 @@ export default class App extends React.Component {
           lat: json.location.lat,
           lon: json.location.lon,
           time_zone: json.location.timezone_id,
-          local_time: json.location.localtime,
+          local_time: json.location.localtime
         });
       })
       .catch((error) => {
